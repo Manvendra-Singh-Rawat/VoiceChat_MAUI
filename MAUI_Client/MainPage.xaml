@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Client.MainPage"
+             Title="Voice Chat Client">
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label Text="Server IP:" />
+        <Entry x:Name="IpEntry" Placeholder="e.g. 192.168.1.10" />
+
+        <Label Text="Port:" />
+        <Entry x:Name="PortEntry" Keyboard="Numeric" Placeholder="e.g. 5004" />
+
+        <HorizontalStackLayout Spacing="20">
+            <Button Text="Connect" Clicked="OnConnectClicked" />
+            <Button Text="Disconnect" />
+        </HorizontalStackLayout>
+
+        <Label x:Name="StatusLabel" Text="Status: Disconnected" TextColor="Gray" />
+
+    </VerticalStackLayout>
+</ContentPage>

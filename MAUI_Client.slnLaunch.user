@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MAUI_Server\\MAUI_Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MAUI_Client\\MAUI_Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

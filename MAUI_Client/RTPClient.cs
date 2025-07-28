@@ -19,9 +19,6 @@ namespace MAUI_Client
         private const int PayloadType = 11;
         private int UniqueID = new Random().Next();
 
-        //WaveFileWriter _WaveFileWriter;
-        //_WaveFileWriter.Write(_UdpReceiveResult.Buffer.Skip(12).ToArray());
-
         public RTPClient(string IP, int Port, AudioInputManager audioInputManager, AudioOutputManager audioOutputManager)
         {
             _UdpClient = new UdpClient();
@@ -68,7 +65,6 @@ namespace MAUI_Client
                 try
                 {
                     UdpReceiveResult ReceivedData = await _UdpClient.ReceiveAsync();
-                    //System.Diagnostics.Debug.WriteLine($"Received data length: {ReceivedData.Buffer.Length}");
                     _AudioOutputManager.PlayAudioOnClient(ReceivedData.Buffer.Skip(12).ToArray());
                 }
                 catch (Exception ex)

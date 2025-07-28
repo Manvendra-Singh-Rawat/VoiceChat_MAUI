@@ -12,9 +12,7 @@ namespace MAUI_Client
         public AudioInputManager()
         {
             AudioInput = new WaveInEvent()
-            {
-                WaveFormat = new WaveFormat(44100, 16, 1),
-            };
+            { WaveFormat = new WaveFormat(44100, 16, 1) };
 
             AudioInput.DataAvailable += (s, a) =>
             {
@@ -25,9 +23,12 @@ namespace MAUI_Client
             AudioInput.StartRecording();
 
             AudioInput.RecordingStopped += (s, a) =>
-            {
-                System.Diagnostics.Debug.WriteLine("Recording stopped: " + a.Exception?.Message);
-            };
+            { System.Diagnostics.Debug.WriteLine("Recording stopped: " + a.Exception?.Message); };
+        }
+
+        public void StopRecording()
+        {
+            AudioInput.StopRecording();
         }
     }
 }

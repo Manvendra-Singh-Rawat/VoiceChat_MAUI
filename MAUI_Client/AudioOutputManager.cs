@@ -19,12 +19,8 @@ namespace MAUI_Client
 
         public void PlayAudioOnClient(byte[] ReceivedAudio)
         {
-            if(ReceivedAudio.Length > 0)
-            {
-                WaveProvider.AddSamples(ReceivedAudio, 0, ReceivedAudio.Length);
-                
-            }
-            
+            if (ReceivedAudio.Length <= 0) return;
+            WaveProvider.AddSamples(ReceivedAudio, 0, ReceivedAudio.Length);
         }
     }
 }

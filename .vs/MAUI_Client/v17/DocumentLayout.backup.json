@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{FE6DC804-2A42-473C-B0FD-81B11F9E823D}|MAUI_Server\\MAUI_Server.csproj|d:\\projects\\voicechat_maui\\maui_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE6DC804-2A42-473C-B0FD-81B11F9E823D}|MAUI_Server\\MAUI_Server.csproj|solutionrelative:maui_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C063579-2281-4968-94AF-E54AC260D9EC}|MAUI_Client\\MAUI_Client.csproj|d:\\projects\\voicechat_maui\\maui_client\\rtpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C063579-2281-4968-94AF-E54AC260D9EC}|MAUI_Client\\MAUI_Client.csproj|solutionrelative:maui_client\\rtpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C063579-2281-4968-94AF-E54AC260D9EC}|MAUI_Client\\MAUI_Client.csproj|d:\\projects\\voicechat_maui\\maui_client\\audioinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C063579-2281-4968-94AF-E54AC260D9EC}|MAUI_Client\\MAUI_Client.csproj|solutionrelative:maui_client\\audioinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RTPClient.cs",
+              "DocumentMoniker": "D:\\Projects\\VoiceChat_MAUI\\MAUI_Client\\RTPClient.cs",
+              "RelativeDocumentMoniker": "MAUI_Client\\RTPClient.cs",
+              "ToolTip": "D:\\Projects\\VoiceChat_MAUI\\MAUI_Client\\RTPClient.cs",
+              "RelativeToolTip": "MAUI_Client\\RTPClient.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:54:37.18Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +45,22 @@
               "RelativeDocumentMoniker": "MAUI_Server\\Program.cs",
               "ToolTip": "D:\\Projects\\VoiceChat_MAUI\\MAUI_Server\\Program.cs",
               "RelativeToolTip": "MAUI_Server\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T05:24:22.193Z",
+              "WhenOpened": "2025-07-28T05:48:20.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioInputManager.cs",
+              "DocumentMoniker": "D:\\Projects\\VoiceChat_MAUI\\MAUI_Client\\AudioInputManager.cs",
+              "RelativeDocumentMoniker": "MAUI_Client\\AudioInputManager.cs",
+              "ToolTip": "D:\\Projects\\VoiceChat_MAUI\\MAUI_Client\\AudioInputManager.cs",
+              "RelativeToolTip": "MAUI_Client\\AudioInputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:47:33.878Z",
               "EditorCaption": ""
             }
           ]

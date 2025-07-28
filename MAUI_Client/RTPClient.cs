@@ -2,6 +2,7 @@
 using System.Net;
 using SIPSorcery.Net;
 using NAudio.Wave;
+using System.Text;
 
 namespace MAUI_Client
 {

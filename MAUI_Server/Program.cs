@@ -24,16 +24,9 @@ while (isServerRunning)
         IPEndPoint ReceivedEndPoint = _UdpReceiveResult.RemoteEndPoint;
         ConnectedUsers[ReceivedEndPoint] = DateTime.Now;
 
-        //await _Listener.SendAsync(_UdpReceiveResult.Buffer, _UdpReceiveResult.Buffer.Length, ReceivedEndPoint);
-
-        //System.Diagnostics.Debug.WriteLine("Data received");
-
         foreach(var User in ConnectedUsers)
         {
-            //if (User.Value < DateTime.Now.AddMinutes(-1))
-            //    ConnectedUsers.TryRemove(User);
-            //else 
-                await _Listener.SendAsync(_UdpReceiveResult.Buffer, _UdpReceiveResult.Buffer.Length, User.Key);
+            await _Listener.SendAsync(_UdpReceiveResult.Buffer, _UdpReceiveResult.Buffer.Length, User.Key);
         }
     }
     catch (Exception ex)
